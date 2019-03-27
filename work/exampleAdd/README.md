@@ -7,7 +7,11 @@ $ celery -A tasks worker --loglevel=info
 And then write:
 
 $ python
+
+>>
 from tasks import add
+
+>>
 add.delay(4, 4)
 
 It's return 8.
