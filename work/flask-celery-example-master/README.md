@@ -22,4 +22,3 @@ Quick Setup
 5. Start the Flask application on your original terminal window: `python app.py`.
 6. Go to `http://localhost:8082/` and enjoy this application!
 
-For details on how this all works, see my article [Using Celery with Flask].
